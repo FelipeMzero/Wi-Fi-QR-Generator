@@ -6,7 +6,7 @@ Este é um gerador de QR Code de Wi-Fi gratuito e de código aberto, criado com 
 
 Com este gerador, você pode facilmente criar um QR Code que contém o **nome da rede Wi-Fi (SSID)** e a **senha**. Esse QR Code pode ser escaneado para conectar-se automaticamente à rede sem a necessidade de inserir manualmente as credenciais. É especialmente útil para ambientes públicos ou residências, onde o compartilhamento rápido de Wi-Fi é necessário.
 
-![Interface do Gerador de QR Code de Wi-Fi](https://user-images.githubusercontent.com/0000000/imagem-exemplo.png)
+![Interface do Gerador de QR Code de Wi-Fi](https://felipemzero.github.io/qr_wifi/)
 
 ### 🎯 Funcionalidades
 
