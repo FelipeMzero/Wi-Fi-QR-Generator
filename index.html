@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR Code de Wi-Fi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de QR Code de Wi-Fi</h1>
+        
+        <div class="input-group">
+            <label for="ssid">Nome da Rede (SSID):</label>
+            <input type="text" id="ssid" placeholder="Digite o nome da rede">
+        </div>
+        
+        <div class="input-group">
+            <label for="password">Senha da Rede:</label>
+            <input type="password" id="password" placeholder="Digite a senha">
+        </div>
+
+        <button onclick="gerarQRCode()">Gerar QR Code</button>
+
+        <div id="qrcode"></div>
+        
+        <!-- Botão para download -->
+        <a id="download" style="display: none;" download="wifi_qrcode.png">
+            <button>Baixar QR Code</button>
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
